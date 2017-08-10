@@ -1,205 +1,172 @@
-/*font-family: 'Zilla Slab Highlight', cursive;
-font-family: 'Shrikhand', cursive;*/
-
-
-
-.container-fluid{
-  width: 100vw;
-  height: 100vh;
-  padding: 0px;
-  width: 0px;
+body {
+    overflow-x: hidden;
 }
 
-.loading{
-  height: 100%;
-  width: 100%;
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px !important;
+    margin: 0px !important;
 }
-
-.spaceship{
-  position: fixed;
-  bottom: 20px;
-  left: 0px;
-  right: 0px;
-  margin: 0 auto;
+.row {
+    padding: 0px !important;
+    margin: 0px !important;
 }
-
-.animateSpaceship{
-  -webkit-animation-name: fly;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-duration: 5s;
-  animation-name: fly;
-  animation-iteration-count: 1;
-  animation duration: 5s;
+.col {
+    padding: 0px !important;
+    margin: 0px !important;
 }
-
+.loading {
+    height: 100%;
+    width: 100%;
+}
+.spaceship {
+    position: fixed;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+.animateSpaceship {
+    -webkit-animation-name: fly;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: 5s;
+    animation-name: fly;
+    animation-iteration-count: 1;
+    animation duration: 5s;
+}
 #particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
 }
-
-.particles-js-canvas-el{
-  height: 99% !important;
+.particles-js-canvas-el {
+    height: 99% !important;
 }
-
-.main{
-  height: 100%;
-  width: 100%;
-  display: none;
-}
-
-.header{
-  position: absolute;
-  height: 75%;
-  width: 100%;
-  background-color: #0047aa;
-  overflow: hidden;
-}
-
-.menu{
-  position: absolute;
-  height: 25%;
-  width: 100%;
-  bottom: 0px;
-  background-color: #34495e;
-}
-
-.head_text_container{
-  position: absolute;
-  height: 115%;
-  width: 100%;
-}
-
-.menuBtn{
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.github{
-  display: inline-block;
-  height: 100%;
-  width: 25%;
-}
-
-.github:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,71,170,1),0 17px 50px 0;
-}
-
-.linkedIn{
-  display: inline-block;
-  height: 100%;
-  width: 24%;
-}
-
-.linkedIn:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,71,170,1),0 17px 50px 0;
-}
-
-.projects{
-  display: inline-block;
-  height: 100%;
-  width: 25%;
-}
-
-.projects:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,71,170,1),0 17px 50px 0;
-}
-
-.about{
-  display: inline-block;
-  height: 100%;
-  width: 25%;
-}
-
-.about:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,71,170,1),0 17px 50px 0;
-}
-
-.menuText{
-  font-size: 3.5em;
-  color: #ecf0f1;
-  text-align: center;
-  font-family: 'Shrikhand', cursive;
-  margin-top: 18%;
-}
-
-
-.planet{
-  position: absolute;
-  height: 200%;
-  width: 100%;
-  top: 40%;
-  background-image: url('../images/3dPlanet.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform-origin: center;
-  transform-style: preserve-3D;
-  animation: rotating 500s linear infinite;
-}
-
-.heading_text{
-  position: absolute;
-  width: 100%;
-  font-family: 'Shrikhand', cursive;
-  font-size: 8em;
-  color: #ecf0f1;
-  font-weight: bolder;
-  text-align: center;
-  cursor: default;
-}
-
-.scramble_about{
-  position: absolute;
-  width: 100%;
-  top: 20%;
-  font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 6em;
-  color: #ecf0f1;
-  letter-spacing: 5px;
-  text-align: center;
-  cursor: default;
-}
-
-.mainBody{
-  height: 100%;
-  width: 100%;
-  background-color: #2c3e50;
-}
-
-@keyframes rotating{
-  0%{
-    transform: rotate(0deg);
-  }
-  100%{
-    transform: rotate(1turn);
-  }
-}
-
-
-
-@keyframes fly{
-  0%  { margin: 0 auto; }
-  100% {
-    margin: 150% auto;
+.main {
     display: none;
-        }
 }
-
-@-webkit-keyframes fly{
-  0%  { margin: 0 auto; }
-  100% {
-    margin: 150% auto;
-    display: none;
-   }
+.header {
+    height: 75%;
+    width: 100%;
+    background-color: #0047aa;
+    overflow: hidden;
 }
-
-
-@media only screen and (min-width: 1599px)
-styles.min.css:3
+.menu {
+    height: 25%;
+    width: 100%;
+    background-color: #34495e;
+}
+.center {
+    margin: auto;
+}
+.menuBtn {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.github {
+    height: 100%;
+    width: 100%;
+}
+.github:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 71, 170, 1), 0 17px 50px 0;
+}
+.linkedIn {
+    height: 100%;
+    width: 100%;
+}
+.linkedIn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 71, 170, 1), 0 17px 50px 0;
+}
+.projects {
+    height: 100%;
+    width: 100%;
+}
+.projects:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 71, 170, 1), 0 17px 50px 0;
+}
+.about {
+    height: 100%;
+    width: 100%;
+}
+.about:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 71, 170, 1), 0 17px 50px 0;
+}
+.menuText {
+    font-size: 3.5em;
+    color: #ecf0f1;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
 .planet {
     height: 200%;
-    top: 40%;
+    width: 100%;
+    top: 3%;
+    transform-origin: center;
+    transform-style: preserve-3D;
+    animation: rotating 500s linear infinite;
+    display: none;
+}
+.heading_text {
+    font-family: 'Shrikhand', cursive;
+    font-size: 8em;
+    color: #ecf0f1;
+    font-weight: bolder;
+    text-align: center;
+    cursor: default;
+}
+.scramble_about {
+    width: 100%;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 6em;
+    color: #ecf0f1;
+    letter-spacing: 5px;
+    text-align: center;
+    cursor: default;
+}
+.mainBody {
+    height: 100%;
+    width: 100%;
+    background-color: #2c3e50;
+}
+
+.aboutMe {
+    height: 100%;
+    background-color: #ecf0f1;
+}
+
+.myProjects{
+    height: 100%;
+    background-color: #2c3e50;
+}
+
+
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+@keyframes fly {
+    0% {
+        margin: 0 auto;
+    }
+    100% {
+        margin: 150% auto;
+        display: none;
+    }
+}
+@-webkit-keyframes fly {
+    0% {
+        margin: 0 auto;
+    }
+    100% {
+        margin: 150% auto;
+        display: none;
+    }
 }
