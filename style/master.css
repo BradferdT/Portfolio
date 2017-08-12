@@ -29,6 +29,10 @@ body {
   margin-left: 33.3333333333% !important;
 }
 
+.offset-s1 {
+  margin-left: 8.3333333333% !important;
+}
+
 .loading {
     height: 100%;
     width: 100%;
@@ -297,23 +301,23 @@ body {
 }
 
 .crypto_kraken {
-  height: 68vh;
+  height: 74vh;
   width: 100%;
 }
 
 .glass {
-    height: 100%;
+    height: 40%;
     width: 100vw;
     background-color: rgba(236, 240, 241,0.2);
 }
 
 .blackJack {
-  height: 68vh;
+  height: 74vh;
   width: 100%;
 }
 
 .bfTracker {
-  height: 68vh;
+  height: 74vh;
   width: 100%;
 }
 
@@ -333,45 +337,9 @@ body {
   animation:breeze 8s cubic-bezier(.8,-0.5,.25,1.5) infinite;
 }
 
-.proj_image_row {
-  height: 30%;
-  width: 100%;
-}
-
-.proj_image_col {
-  height: 100%;
-  width: 100%;
-}
-
-.crypto_image {
-  height: 75%;
-  width: 100%;
-  background-image: url('../images/testImage.png');
-  border-radius: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.jack_image {
-  height: 75%;
-  width: 100%;
-  background-image: url('../images/testImage3.png');
-  border-radius: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.tracker_image {
-  height: 75%;
-  width: 100%;
-  background-image: url('../images/testImage2.png');
-  border-radius: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .proj_title_row {
-  height: 10%;
+  height: 20%;
   width: 100%;
 }
 
@@ -387,7 +355,26 @@ body {
   font-weight: bold;
 }
 
+.title_col {
+  height: 100%;
+  width: 100%;
+}
 
+.description_row {
+  height: 50%;
+  width: 100%;
+}
+
+.description_col {
+  height: 100%;
+  width: 100%;
+}
+
+.description {
+  font-size: 1em;
+  color: #ecf0f1;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
 
 @keyframes breeze {
   0%, 100% {
